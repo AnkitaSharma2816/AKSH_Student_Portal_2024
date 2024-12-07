@@ -1,2 +1,21 @@
 <p>student-listing works!</p>
-<app-student-data></app-student-data>
+<!-- <div class="row">
+    <div class="column">
+        <app-student-data></app-student-data>
+    </div>
+    <div class="column">
+        <app-student-details></app-student-details>
+    </div>
+  </div> -->
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>
+        <app-student-data></app-student-data>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <app-student-details></app-student-details>
+    </mat-grid-tile>
+    <!-- <mat-grid-tile>3</mat-grid-tile>
+    <mat-grid-tile>4</mat-grid-tile> -->
+  </mat-grid-list>
+
+
